@@ -76,12 +76,12 @@
         android:layout_height="81dp"
         android:background="#E3EEF8"
         android:gravity="center"
-        android:text="회원가입"
+        android:text="로그인"
         android:textColor="@color/black"
         android:textSize="24sp"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="-1dp"
-        tools:layout_editor_absoluteY="-4dp"
-        tools:ignore="MissingConstraints" />
+        tools:layout_editor_absoluteY="-4dp" />
 
     <ImageButton
         android:id="@+id/imageButton"
