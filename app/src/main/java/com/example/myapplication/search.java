@@ -12,7 +12,7 @@ public class search  extends Activity implements View.OnClickListener {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.search);
 
-        Button bt1 = (Button)findViewById(R.id.button33);
+        Button bt1 = (Button)findViewById(R.id.button4);
 
         bt1.setOnClickListener(this);
     }
@@ -20,7 +20,7 @@ public class search  extends Activity implements View.OnClickListener {
     @Override
     public void onClick(View v) {
         switch (v.getId()){
-            case R.id.button33:
+            case R.id.button4:
                 Intent intent1 = new Intent(this,home.class);
         }
     }

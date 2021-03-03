@@ -13,10 +13,10 @@ public class home extends Activity implements View.OnClickListener {
         super.onCreate(savedlnstanceState);
         setContentView(R.layout.home);
 
-        Button bt1 = (Button) findViewById(R.id.button9);
-        Button bt2 = (Button) findViewById(R.id.button14);
-        Button bt3 = (Button) findViewById(R.id.button10);
-        Button bt4 = (Button) findViewById(R.id.button23);
+        Button bt1 = (Button) findViewById(R.id.button2);
+        Button bt2 = (Button) findViewById(R.id.button2);
+        Button bt3 = (Button) findViewById(R.id.button3);
+        Button bt4 = (Button) findViewById(R.id.button13);
 
         bt1.setOnClickListener(this);
         bt2.setOnClickListener(this);
@@ -26,22 +26,22 @@ public class home extends Activity implements View.OnClickListener {
     @Override
     public void onClick(View v) {
         switch (v.getId()){
-            case R.id.button9:
+            case R.id.button:
                 Intent intent1 = new Intent(this,address.class);
                 startActivity(intent1);
                 break;
 
-            case R.id.button14:
+            case R.id.button2:
                 Intent intent2 = new Intent(this,search.class);
                 startActivity(intent2);
                 break;
 
-            case R.id.button10:
+            case R.id.button3:
                 Intent intent3 = new Intent(this,event.class);
                 startActivity(intent3);
                 break;
 
-            case R.id.button23:
+            case R.id.button13:
                 Intent intent4 = new Intent(this,reservation.class);
                 startActivity(intent4);
                 break;

@@ -6,7 +6,7 @@
     android:layout_height="match_parent">
 
     <ImageButton
-        android:id="@+id/imageButton5"
+        android:id="@+id/imageButton1"
         android:layout_width="38dp"
         android:layout_height="38dp"
         android:background="#FFFFFF"
@@ -47,7 +47,7 @@
         app:layout_constraintVertical_bias="0.206" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName3"
+        android:id="@+id/editTextTextPersonName1"
         android:layout_width="266dp"
         android:layout_height="44dp"
         android:background="#E3EEF8"
@@ -64,7 +64,7 @@
         app:layout_constraintVertical_bias="0.304" />
 
     <Button
-        android:id="@+id/button25"
+        android:id="@+id/button2"
         android:layout_width="85dp"
         android:layout_height="51dp"
         app:backgroundTint="#8996A1"
@@ -76,7 +76,7 @@
         app:layout_constraintVertical_bias="0.307" />
 
     <Button
-        android:id="@+id/button27"
+        android:id="@+id/button2"
         android:layout_width="375dp"
         android:layout_height="54dp"
         android:text="현주소로 지정"

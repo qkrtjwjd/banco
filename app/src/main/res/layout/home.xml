@@ -11,22 +11,7 @@
         android:layout_height="match_parent">
 
         <Button
-            android:id="@+id/button9"
-            android:layout_width="226dp"
-            android:layout_height="65dp"
-            android:text="주소 입력"
-            android:textColor="#000000"
-            android:textSize="24sp"
-            app:backgroundTint="#E3EEF8"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.118"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.072" />
-
-        <Button
-            android:id="@+id/button14"
+            android:id="@+id/button2"
             android:layout_width="93dp"
             android:layout_height="68dp"
             android:text="검색"
@@ -41,7 +26,22 @@
             app:layout_constraintVertical_bias="0.073" />
 
         <Button
-            android:id="@+id/button22"
+            android:id="@+id/button"
+            android:layout_width="232dp"
+            android:layout_height="75dp"
+            android:text="주소 입력"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            app:backgroundTint="#E3EEF8"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.089"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.062" />
+
+        <Button
+            android:id="@+id/button12"
             android:layout_width="130dp"
             android:layout_height="66dp"
             android:text="장바구니"
@@ -56,7 +56,7 @@
             app:layout_constraintVertical_bias="0.891" />
 
         <Button
-            android:id="@+id/button18"
+            android:id="@+id/button4"
             android:layout_width="77dp"
             android:layout_height="59dp"
             android:text="과일"
@@ -68,7 +68,7 @@
             tools:layout_editor_absoluteY="394dp" />
 
         <Button
-            android:id="@+id/button19"
+            android:id="@+id/button5"
             android:layout_width="77dp"
             android:layout_height="59dp"
             android:text="음료"
@@ -80,7 +80,7 @@
             tools:layout_editor_absoluteY="394dp" />
 
         <Button
-            android:id="@+id/button20"
+            android:id="@+id/button2"
             android:layout_width="77dp"
             android:layout_height="59dp"
             android:text="스낵"
@@ -92,7 +92,7 @@
             tools:layout_editor_absoluteY="394dp" />
 
         <Button
-            android:id="@+id/button21"
+            android:id="@+id/button7"
             android:layout_width="77dp"
             android:layout_height="59dp"
             android:text="주류"
@@ -104,7 +104,7 @@
             tools:layout_editor_absoluteY="394dp" />
 
         <Button
-            android:id="@+id/button11"
+            android:id="@+id/button2"
             android:layout_width="77dp"
             android:layout_height="59dp"
             android:text="생활"
@@ -120,7 +120,7 @@
             tools:ignore="DuplicateIds" />
 
         <Button
-            android:id="@+id/button23"
+            android:id="@+id/button13"
             android:layout_width="81dp"
             android:layout_height="44dp"
             android:text="찜"
@@ -136,7 +136,7 @@
             tools:ignore="DuplicateIds" />
 
         <Button
-            android:id="@+id/button28"
+            android:id="@+id/button16"
             android:layout_width="87dp"
             android:layout_height="44dp"
             android:text="주문내역"
@@ -152,7 +152,7 @@
             tools:ignore="DuplicateIds" />
 
         <Button
-            android:id="@+id/button29"
+            android:id="@+id/button17"
             android:layout_width="76dp"
             android:layout_height="44dp"
             android:text="내정보"
@@ -168,7 +168,7 @@
             tools:ignore="DuplicateIds" />
 
         <Button
-            android:id="@+id/button26"
+            android:id="@+id/button15"
             android:layout_width="80dp"
             android:layout_height="44dp"
             android:text="홈"
@@ -184,7 +184,7 @@
             tools:ignore="DuplicateIds" />
 
         <Button
-            android:id="@+id/button24"
+            android:id="@+id/button14"
             android:layout_width="88dp"
             android:layout_height="44dp"
             android:text="카테고리"
@@ -200,7 +200,7 @@
             tools:ignore="DuplicateIds" />
 
         <Button
-            android:id="@+id/button15"
+            android:id="@+id/button9"
             android:layout_width="77dp"
             android:layout_height="59dp"
             android:text="펫"
@@ -215,7 +215,7 @@
             app:layout_constraintVertical_bias="0.724" />
 
         <Button
-            android:id="@+id/button16"
+            android:id="@+id/button10"
             android:layout_width="77dp"
             android:layout_height="59dp"
             android:text="식품"
@@ -230,7 +230,7 @@
             app:layout_constraintVertical_bias="0.724" />
 
         <Button
-            android:id="@+id/button17"
+            android:id="@+id/button11"
             android:layout_width="77dp"
             android:layout_height="59dp"
             android:text="전체"
@@ -245,7 +245,7 @@
             app:layout_constraintVertical_bias="0.724" />
 
         <Button
-            android:id="@+id/button10"
+            android:id="@+id/button3"
             android:layout_width="413dp"
             android:layout_height="214dp"
             android:text="이벤트,광고 베너"
@@ -261,7 +261,7 @@
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <Button
-        android:id="@+id/button9"
+        android:id="@+id/button2"
         android:layout_width="93dp"
         android:layout_height="68dp"
         android:text="검색"

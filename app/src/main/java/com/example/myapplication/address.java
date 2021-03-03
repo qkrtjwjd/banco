@@ -12,7 +12,7 @@ public class address extends Activity implements View.OnClickListener {
         super.onCreate(savedlnstanceState);
         setContentView(R.layout.address);
 
-        Button bt1 = (Button)findViewById(R.id.button13);
+        Button bt1 = (Button)findViewById(R.id.button2);
 
         bt1.setOnClickListener(this);
     }
@@ -20,7 +20,7 @@ public class address extends Activity implements View.OnClickListener {
     @Override
     public void onClick(View v){
         switch (v.getId()){
-            case R.id.button13:
+            case R.id.button2:
 
                 Intent intent1 = new Intent(this,address2.class);
                 startActivity(intent1);

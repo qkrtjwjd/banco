@@ -6,13 +6,13 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class reservation extends Activity implements View.OnClickListener {
+public class orderhistory extends Activity implements View.OnClickListener {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.reservation);
+        setContentView(R.layout.orderhistory);
 
-        Button bt1 = (Button)findViewById(R.id.button4);
+        Button bt1 = (Button)findViewById(R.id.button2);
         Button bt2 = (Button)findViewById(R.id.button3);
 
         bt1.setOnClickListener(this);
@@ -20,10 +20,10 @@ public class reservation extends Activity implements View.OnClickListener {
     }
 
     @Override
-    public void onClick(View view) {
-        switch (view.getId()){
-            case R.id.button4:
-                Intent intent1 = new Intent(this,orderhistory.class);
+    public void onClick(View v) {
+        switch (v.getId()){
+            case R.id.button2:
+                Intent intent1 = new Intent(this,reservation.class);
                 startActivity(intent1);
                 break;
 

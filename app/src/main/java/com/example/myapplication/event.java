@@ -12,8 +12,8 @@ public class event extends Activity implements View.OnClickListener {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.event);
 
-        Button bt1 = (Button)findViewById(R.id.button36);
-        Button bt2 = (Button)findViewById(R.id.button39);
+        Button bt1 = (Button)findViewById(R.id.button2);
+        Button bt2 = (Button)findViewById(R.id.button3);
 
         bt1.setOnClickListener(this);
         bt2.setOnClickListener(this);
@@ -22,12 +22,12 @@ public class event extends Activity implements View.OnClickListener {
     @Override
     public void onClick(View v) {
         switch (v.getId()){
-            case R.id.button36:
+            case R.id.button2:
                 Intent intent1 = new Intent(this,reservation.class);
                 startActivity(intent1);
                 break;
 
-            case R.id.button39:
+            case R.id.button3:
                 Intent intent2 = new Intent(this,home.class);
                 startActivity(intent2);
                 break;
