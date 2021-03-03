@@ -2,12 +2,11 @@
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
     <ImageButton
-        android:id="@+id/imageButton4"
+        android:id="@+id/imageButton5"
         android:layout_width="38dp"
         android:layout_height="38dp"
         android:background="#FFFFFF"
@@ -20,7 +19,7 @@
         app:srcCompat="?attr/actionModeCloseDrawable" />
 
     <TextView
-        android:id="@+id/textView11"
+        android:id="@+id/textView13"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="지번, 도로명, 건물명을"
@@ -34,7 +33,7 @@
         app:layout_constraintVertical_bias="0.16" />
 
     <TextView
-        android:id="@+id/textView12"
+        android:id="@+id/textView14"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="입력하세요"
@@ -48,14 +47,14 @@
         app:layout_constraintVertical_bias="0.206" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName4"
+        android:id="@+id/editTextTextPersonName3"
         android:layout_width="266dp"
         android:layout_height="44dp"
-        android:background="#8996A1"
+        android:background="#E3EEF8"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="입력란"
-        android:textColor="#FFFFFF"
+        android:textColor="#8996A1"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -64,24 +63,8 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.304" />
 
-    <EditText
-        android:id="@+id/editTextTextPersonName6"
-        android:layout_width="372dp"
-        android:layout_height="375dp"
-        android:background="#8996A1"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:textColor="#FFFFFF"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.487"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
-
     <Button
-        android:id="@+id/button12"
+        android:id="@+id/button25"
         android:layout_width="85dp"
         android:layout_height="51dp"
         app:backgroundTint="#8996A1"
@@ -93,16 +76,26 @@
         app:layout_constraintVertical_bias="0.307" />
 
     <Button
-        android:id="@+id/button13"
+        android:id="@+id/button27"
         android:layout_width="375dp"
         android:layout_height="54dp"
         android:text="현주소로 지정"
-        android:textColor="#8996A1"
+        android:textColor="#FFFFFF"
         android:textSize="24sp"
-        app:backgroundTint="#E3EEF8"
+        app:backgroundTint="#8996A1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.395" />
+
+    <com.google.android.gms.maps.MapView
+        android:id="@+id/mapView"
+        android:layout_width="355dp"
+        android:layout_height="387dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
 </androidx.constraintlayout.widget.ConstraintLayout>

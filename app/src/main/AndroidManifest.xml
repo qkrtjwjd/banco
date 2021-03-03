@@ -18,6 +18,11 @@
         </activity>
         <activity android:name=".login"/>
         <activity android:name=".findpassword"/>
+        <activity android:name=".menu"/>
+        <activity android:name=".newpassword"/>
+        <activity android:name=".address"/>
+        <activity android:name=".address2"/>
+        <activity android:name=".search"/>
     </application>
 
 </manifest>
