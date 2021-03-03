@@ -252,9 +252,11 @@
             android:textColor="#000000"
             android:textSize="24sp"
             app:backgroundTint="#E3EEF8"
-            tools:ignore="MissingConstraints"
-            tools:layout_editor_absoluteX="-2dp"
-            tools:layout_editor_absoluteY="144dp" />
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.294"
+            tools:ignore="DuplicateIds,MissingConstraints"
+            tools:layout_editor_absoluteX="-2dp" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -273,17 +275,5 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.073"
         tools:ignore="DuplicateIds" />
-
-    <Button
-        android:id="@+id/button10"
-        android:layout_width="413dp"
-        android:layout_height="214dp"
-        android:text="이벤트,광고 베너"
-        android:textColor="#000000"
-        android:textSize="24sp"
-        app:backgroundTint="#E3EEF8"
-        tools:ignore="DuplicateIds,MissingConstraints"
-        tools:layout_editor_absoluteX="-2dp"
-        tools:layout_editor_absoluteY="144dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

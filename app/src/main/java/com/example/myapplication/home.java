@@ -15,9 +15,11 @@ public class home extends Activity implements View.OnClickListener {
 
         Button bt1 = (Button) findViewById(R.id.button9);
         Button bt2 = (Button) findViewById(R.id.button14);
+        Button bt3 = (Button) findViewById(R.id.button10);
 
         bt1.setOnClickListener(this);
         bt2.setOnClickListener(this);
+        bt3.setOnClickListener(this);
     }
     @Override
     public void onClick(View v) {
@@ -30,6 +32,11 @@ public class home extends Activity implements View.OnClickListener {
             case R.id.button14:
                 Intent intent2 = new Intent(this,search.class);
                 startActivity(intent2);
+                break;
+
+            case R.id.button10:
+                Intent intent3 = new Intent(this,event.class);
+                startActivity(intent3);
                 break;
         }
     }

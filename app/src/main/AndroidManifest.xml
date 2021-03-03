@@ -23,6 +23,7 @@
         <activity android:name=".address"/>
         <activity android:name=".address2"/>
         <activity android:name=".search"/>
+        <activity android:name=".event"/>
     </application>
 
 </manifest>

@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_logo4"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="81dp"
+        android:background="#E3EEF8"
+        android:gravity="center"
+        android:text="이벤트"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.003" />
+
+    <TextView
+        android:id="@+id/tv_logo5"
+        android:layout_width="414dp"
+        android:layout_height="194dp"
+        android:background="#F4F8FC"
+        android:gravity="center"
+        android:text="이벤트,광고1"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.154"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/tv_logo6"
+        android:layout_width="419dp"
+        android:layout_height="74dp"
+        android:background="#E3EEF8"
+        android:gravity="center"
+        android:text="이벤트,광고2"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.421"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/tv_logo8"
+        android:layout_width="419dp"
+        android:layout_height="74dp"
+        android:background="#E3EEF8"
+        android:gravity="center"
+        android:text="이벤트,광고4"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.646"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-4dp" />
+
+    <TextView
+        android:id="@+id/tv_logo10"
+        android:layout_width="419dp"
+        android:layout_height="74dp"
+        android:background="#E3EEF8"
+        android:gravity="center"
+        android:text="이벤트,광고6"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.872"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/tv_logo7"
+        android:layout_width="419dp"
+        android:layout_height="74dp"
+        android:background="#F4F8FC"
+        android:gravity="center"
+        android:text="이벤트,광고3"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.534"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/tv_logo9"
+        android:layout_width="419dp"
+        android:layout_height="74dp"
+        android:background="#F4F8FC"
+        android:gravity="center"
+        android:text="이벤트,광고5"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.759"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/tv_logo11"
+        android:layout_width="419dp"
+        android:layout_height="74dp"
+        android:background="#F4F8FC"
+        android:gravity="center"
+        android:text="이벤트,광고7"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.984"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-3dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton7"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:background="#E3EEF8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.042"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023"
+        app:srcCompat="?attr/actionModeCloseDrawable" />
+
+    <Button
+        android:id="@+id/button36"
+        tools:ignore="DuplicateIds"
+        android:layout_width="81dp"
+        android:layout_height="44dp"
+        android:text="찜"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        app:backgroundTint="#E3EEF8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/button37"
+        tools:ignore="DuplicateIds"
+        android:layout_width="87dp"
+        android:layout_height="44dp"
+        android:text="주문내역"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        app:backgroundTint="#E3EEF8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.765"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/button38"
+        tools:ignore="DuplicateIds"
+        android:layout_width="76dp"
+        android:layout_height="44dp"
+        android:text="내정보"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        app:backgroundTint="#E3EEF8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/button39"
+        tools:ignore="DuplicateIds"
+        android:layout_width="80dp"
+        android:layout_height="44dp"
+        android:text="홈"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:backgroundTint="#E3EEF8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/button40"
+        tools:ignore="DuplicateIds"
+        android:layout_width="88dp"
+        android:layout_height="44dp"
+        android:text="카테고리"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        app:backgroundTint="#E3EEF8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.25"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>

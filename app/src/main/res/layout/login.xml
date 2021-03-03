@@ -65,9 +65,11 @@
         android:text="로그인"
         android:textColor="@color/black"
         android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="-1dp"
-        tools:layout_editor_absoluteY="-4dp" />
+        tools:layout_editor_absoluteX="-46dp" />
 
     <ImageButton
         android:id="@+id/imageButton"
