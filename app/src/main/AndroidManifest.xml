@@ -24,6 +24,8 @@
         <activity android:name=".address2"/>
         <activity android:name=".search"/>
         <activity android:name=".event"/>
+        <activity android:name=".reservation"/>
+        <activity android:name=".home"/>
     </application>
 
 </manifest>

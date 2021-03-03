@@ -16,10 +16,12 @@ public class home extends Activity implements View.OnClickListener {
         Button bt1 = (Button) findViewById(R.id.button9);
         Button bt2 = (Button) findViewById(R.id.button14);
         Button bt3 = (Button) findViewById(R.id.button10);
+        Button bt4 = (Button) findViewById(R.id.button23);
 
         bt1.setOnClickListener(this);
         bt2.setOnClickListener(this);
         bt3.setOnClickListener(this);
+        bt4.setOnClickListener(this);
     }
     @Override
     public void onClick(View v) {
@@ -37,6 +39,11 @@ public class home extends Activity implements View.OnClickListener {
             case R.id.button10:
                 Intent intent3 = new Intent(this,event.class);
                 startActivity(intent3);
+                break;
+
+            case R.id.button23:
+                Intent intent4 = new Intent(this,reservation.class);
+                startActivity(intent4);
                 break;
         }
     }
