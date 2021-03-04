@@ -6,9 +6,96 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <Button
+        android:id="@+id/button17"
+        android:layout_width="81dp"
+        android:layout_height="44dp"
+        android:background="#E3EEF8"
+        android:text="내정보"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        app:backgroundTint="#E3EEF8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="86dp"
+        android:layout_height="44dp"
+        android:background="#E3EEF8"
+        android:text="카테고리"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        app:backgroundTint="#E3EEF8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.23"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="86dp"
+        android:layout_height="44dp"
+        android:background="#E3EEF8"
+        android:text="홈"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:backgroundTint="#E3EEF8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="86dp"
+        android:layout_height="44dp"
+        android:background="#E3EEF8"
+        android:text="주문내역"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        app:backgroundTint="#E3EEF8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.76"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="77dp"
+        android:layout_height="44dp"
+        android:background="#E3EEF8"
+        android:text="찜"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        app:backgroundTint="#E3EEF8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="MissingConstraints" />
+
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="-114dp"
+        tools:layout_editor_absoluteY="0dp">
 
         <Button
             android:id="@+id/button2"
@@ -112,7 +199,7 @@
             android:textColor="#000000"
             android:textSize="24sp"
             app:backgroundTint="#E3EEF8"
-            app:layout_constraintBottom_toBottomOf="@+id/button15"
+            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.925"
             app:layout_constraintStart_toStartOf="parent"
@@ -134,86 +221,6 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.724"
-            tools:ignore="DuplicateIds" />
-
-        <Button
-            android:id="@+id/button13"
-            android:layout_width="81dp"
-            android:layout_height="44dp"
-            android:text="찜"
-            android:textColor="#000000"
-            android:textSize="14sp"
-            app:backgroundTint="#E3EEF8"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="1.0"
-            tools:ignore="DuplicateIds" />
-
-        <Button
-            android:id="@+id/button16"
-            android:layout_width="87dp"
-            android:layout_height="44dp"
-            android:text="주문내역"
-            android:textColor="#000000"
-            android:textSize="14sp"
-            app:backgroundTint="#E3EEF8"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.765"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="1.0"
-            tools:ignore="DuplicateIds" />
-
-        <Button
-            android:id="@+id/button17"
-            android:layout_width="76dp"
-            android:layout_height="44dp"
-            android:text="내정보"
-            android:textColor="#000000"
-            android:textSize="14sp"
-            app:backgroundTint="#E3EEF8"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="1.0"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="1.0"
-            tools:ignore="DuplicateIds" />
-
-        <Button
-            android:id="@+id/button15"
-            android:layout_width="80dp"
-            android:layout_height="44dp"
-            android:text="홈"
-            android:textColor="#000000"
-            android:textSize="20sp"
-            app:backgroundTint="#E3EEF8"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.506"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="1.0"
-            tools:ignore="DuplicateIds" />
-
-        <Button
-            android:id="@+id/button14"
-            android:layout_width="88dp"
-            android:layout_height="44dp"
-            android:text="카테고리"
-            android:textColor="#000000"
-            android:textSize="14sp"
-            app:backgroundTint="#E3EEF8"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.25"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="1.0"
             tools:ignore="DuplicateIds" />
 
         <Button
