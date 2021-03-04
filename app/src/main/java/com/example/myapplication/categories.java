@@ -16,10 +16,12 @@ public class categories  extends Activity implements View.OnClickListener{
         Button bt1 = (Button)findViewById(R.id.button);
         Button bt2 = (Button)findViewById(R.id.button2);
         Button bt3 = (Button)findViewById(R.id.button3);
+        Button bt4 = (Button)findViewById(R.id.button6);
 
         bt1.setOnClickListener(this);
         bt2.setOnClickListener(this);
         bt3.setOnClickListener(this);
+        bt4.setOnClickListener(this);
     }
     @Override
     public void onClick(View v) {
@@ -37,6 +39,11 @@ public class categories  extends Activity implements View.OnClickListener{
             case R.id.button3:
                 Intent intent3 = new Intent(this,orderhistory.class);
                 startActivity(intent3);
+                break;
+
+            case R.id.button6:
+                Intent intent4 = new Intent(this,detaillist.class);
+                startActivity(intent4);
                 break;
         }
     }
