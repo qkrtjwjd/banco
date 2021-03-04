@@ -14,9 +14,11 @@ public class event extends Activity implements View.OnClickListener {
 
         Button bt1 = (Button)findViewById(R.id.button2);
         Button bt2 = (Button)findViewById(R.id.button3);
+        Button bt3 = (Button)findViewById(R.id.button4);
 
         bt1.setOnClickListener(this);
         bt2.setOnClickListener(this);
+        bt3.setOnClickListener(this);
     }
 
     @Override
@@ -30,6 +32,11 @@ public class event extends Activity implements View.OnClickListener {
             case R.id.button3:
                 Intent intent2 = new Intent(this,home.class);
                 startActivity(intent2);
+                break;
+
+            case R.id.button4:
+                Intent intent3 = new Intent(this,orderhistory.class);
+                startActivity(intent3);
                 break;
 
         }
