@@ -27,6 +27,7 @@
         <activity android:name=".reservation"/>
         <activity android:name=".home"/>
         <activity android:name=".orderhistory"/>
+        <activity android:name=".categories"/>
     </application>
 
 </manifest>

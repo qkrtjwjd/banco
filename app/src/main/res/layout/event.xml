@@ -140,7 +140,7 @@
         app:srcCompat="?attr/actionModeCloseDrawable" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/button1"
         tools:ignore="DuplicateIds"
         android:layout_width="81dp"
         android:layout_height="44dp"
