@@ -28,6 +28,7 @@
         <activity android:name=".home"/>
         <activity android:name=".orderhistory"/>
         <activity android:name=".categories"/>
+        <activity android:name=".detaillist"/>
     </application>
 
 </manifest>
