@@ -24,6 +24,40 @@
         tools:ignore="MissingConstraints" />
 
     <Button
+        android:id="@+id/button12"
+        android:layout_width="149dp"
+        android:layout_height="168dp"
+        android:background="#E3EEF8"
+        android:text="제품"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:backgroundTint="#E3EEF8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.152"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.795"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="149dp"
+        android:layout_height="168dp"
+        android:background="#E3EEF8"
+        android:text="제품"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:backgroundTint="#E3EEF8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.824"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.795"
+        tools:ignore="MissingConstraints" />
+
+    <Button
         android:id="@+id/button8"
         android:layout_width="206dp"
         android:layout_height="74dp"
