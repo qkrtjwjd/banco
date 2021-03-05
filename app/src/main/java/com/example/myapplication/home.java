@@ -17,7 +17,7 @@ public class home extends Activity implements View.OnClickListener {
         Button bt2 = (Button) findViewById(R.id.button2);
         Button bt3 = (Button) findViewById(R.id.button3);
         Button bt4 = (Button) findViewById(R.id.button13);
-        Button bt5 = (Button) findViewById(R.id.button17);
+        Button bt5 = (Button) findViewById(R.id.button16);
         Button bt6 = (Button) findViewById(R.id.button14);
 
         bt1.setOnClickListener(this);
@@ -50,7 +50,7 @@ public class home extends Activity implements View.OnClickListener {
                 startActivity(intent4);
                 break;
 
-            case R.id.button17:
+            case R.id.button16:
                 Intent intent5 = new Intent(this,orderhistory.class);
                 startActivity(intent5);
                 break;

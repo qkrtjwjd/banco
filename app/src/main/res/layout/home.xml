@@ -7,7 +7,211 @@
     android:layout_height="match_parent">
 
     <Button
-        android:id="@+id/button17"
+        android:id="@+id/button11"
+        android:layout_width="79dp"
+        android:layout_height="56dp"
+        android:background="#E3EEF8"
+        android:text="전체"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:backgroundTint="#E3EEF8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.915"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.672"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="79dp"
+        android:layout_height="56dp"
+        android:background="#E3EEF8"
+        android:text="펫"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:backgroundTint="#E3EEF8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.355"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.672"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="79dp"
+        android:layout_height="56dp"
+        android:background="#E3EEF8"
+        android:text="식품"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:backgroundTint="#E3EEF8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.641"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.672"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="79dp"
+        android:layout_height="56dp"
+        android:background="#E3EEF8"
+        android:text="생활"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:backgroundTint="#E3EEF8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.075"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.672"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="79dp"
+        android:layout_height="56dp"
+        android:background="#E3EEF8"
+        android:text="주류"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:backgroundTint="#E3EEF8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.915"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.568"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="79dp"
+        android:layout_height="56dp"
+        android:background="#E3EEF8"
+        android:text="음료"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:backgroundTint="#E3EEF8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.355"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.568"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="79dp"
+        android:layout_height="56dp"
+        android:background="#E3EEF8"
+        android:text="스낵"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:backgroundTint="#E3EEF8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.641"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.568"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="79dp"
+        android:layout_height="56dp"
+        android:background="#E3EEF8"
+        android:text="과일"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:backgroundTint="#E3EEF8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.075"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.568"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="414dp"
+        android:layout_height="191dp"
+        android:background="#E3EEF8"
+        android:text="이벤트,광고 배너"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:backgroundTint="#E3EEF8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.292"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="115dp"
+        android:layout_height="63dp"
+        android:background="#E3EEF8"
+        android:text="검색"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:backgroundTint="#E3EEF8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.905"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.086"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="126dp"
+        android:layout_height="62dp"
+        android:background="#E3EEF8"
+        android:text="장바구니"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:backgroundTint="#E3EEF8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.905"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.818"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="211dp"
+        android:layout_height="62dp"
+        android:background="#E3EEF8"
+        android:text="주소 입력"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:backgroundTint="#E3EEF8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.18"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.086"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button16"
         android:layout_width="81dp"
         android:layout_height="44dp"
         android:background="#E3EEF8"
@@ -58,7 +262,7 @@
         tools:ignore="MissingConstraints" />
 
     <Button
-        android:id="@+id/button16"
+        android:id="@+id/button17"
         android:layout_width="86dp"
         android:layout_height="44dp"
         android:background="#E3EEF8"
@@ -90,198 +294,5 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0"
         tools:ignore="MissingConstraints" />
-
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:layout_editor_absoluteX="-114dp"
-        tools:layout_editor_absoluteY="0dp">
-
-        <Button
-            android:id="@+id/button2"
-            android:layout_width="93dp"
-            android:layout_height="68dp"
-            android:text="검색"
-            android:textColor="#000000"
-            android:textSize="24sp"
-            app:backgroundTint="#E3EEF8"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.889"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.073"
-            tools:ignore="DuplicateIds" />
-
-        <Button
-            android:id="@+id/button"
-            android:layout_width="232dp"
-            android:layout_height="75dp"
-            android:text="주소 입력"
-            android:textColor="#000000"
-            android:textSize="24sp"
-            app:backgroundTint="#E3EEF8"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.089"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.062" />
-
-        <Button
-            android:id="@+id/button12"
-            android:layout_width="130dp"
-            android:layout_height="66dp"
-            android:text="장바구니"
-            android:textColor="#000000"
-            android:textSize="24sp"
-            app:backgroundTint="#E3EEF8"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.911"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.891" />
-
-        <Button
-            android:id="@+id/button4"
-            android:layout_width="77dp"
-            android:layout_height="59dp"
-            android:text="과일"
-            android:textColor="#000000"
-            android:textSize="24sp"
-            app:backgroundTint="#E3EEF8"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.086"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.586"
-            tools:ignore="MissingConstraints" />
-
-        <Button
-            android:id="@+id/button5"
-            android:layout_width="77dp"
-            android:layout_height="59dp"
-            android:text="음료"
-            android:textColor="#000000"
-            android:textSize="24sp"
-            app:backgroundTint="#E3EEF8"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.362"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.586"
-            tools:ignore="MissingConstraints" />
-
-        <Button
-            android:id="@+id/button6"
-            android:layout_width="77dp"
-            android:layout_height="59dp"
-            android:text="스낵"
-            android:textColor="#000000"
-            android:textSize="24sp"
-            app:backgroundTint="#E3EEF8"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.637"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.586"
-            tools:ignore="DuplicateIds,MissingConstraints" />
-
-        <Button
-            android:id="@+id/button7"
-            android:layout_width="77dp"
-            android:layout_height="59dp"
-            android:text="주류"
-            android:textColor="#000000"
-            android:textSize="24sp"
-            app:backgroundTint="#E3EEF8"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.925"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.586"
-            tools:ignore="MissingConstraints" />
-
-        <Button
-            android:id="@+id/button8"
-            android:layout_width="77dp"
-            android:layout_height="59dp"
-            android:text="생활"
-            android:textColor="#000000"
-            android:textSize="24sp"
-            app:backgroundTint="#E3EEF8"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.086"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.724"
-            tools:ignore="DuplicateIds" />
-
-        <Button
-            android:id="@+id/button9"
-            android:layout_width="77dp"
-            android:layout_height="59dp"
-            android:text="펫"
-            android:textColor="#000000"
-            android:textSize="24sp"
-            app:backgroundTint="#E3EEF8"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.362"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.724" />
-
-        <Button
-            android:id="@+id/button10"
-            android:layout_width="77dp"
-            android:layout_height="59dp"
-            android:text="식품"
-            android:textColor="#000000"
-            android:textSize="24sp"
-            app:backgroundTint="#E3EEF8"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.637"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.724" />
-
-        <Button
-            android:id="@+id/button11"
-            android:layout_width="77dp"
-            android:layout_height="59dp"
-            android:text="전체"
-            android:textColor="#000000"
-            android:textSize="24sp"
-            app:backgroundTint="#E3EEF8"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.922"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.724" />
-
-        <Button
-            android:id="@+id/button3"
-            android:layout_width="413dp"
-            android:layout_height="214dp"
-            android:text="이벤트,광고 베너"
-            android:textColor="#000000"
-            android:textSize="24sp"
-            app:backgroundTint="#E3EEF8"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.294"
-            tools:ignore="DuplicateIds,MissingConstraints"
-            tools:layout_editor_absoluteX="-2dp" />
-
-    </androidx.constraintlayout.widget.ConstraintLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
