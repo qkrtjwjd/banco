@@ -6,13 +6,13 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class productdetails  extends Activity implements View.OnClickListener {
+public class shoppingbasket extends Activity implements View.OnClickListener {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.productdetails);
+        setContentView(R.layout.shoppingbasket);
 
-        Button bt1 = (Button)findViewById(R.id.button4);
+        Button bt1 = (Button)findViewById(R.id.button2);
 
         bt1.setOnClickListener(this);
     }
@@ -20,10 +20,11 @@ public class productdetails  extends Activity implements View.OnClickListener {
     @Override
     public void onClick(View v) {
         switch (v.getId()){
-            case R.id.button4:
-                Intent intent1 = new Intent(this,shoppingbasket.class);
+            case R.id.button2:
+                Intent intent1 = new Intent(this,home.class);
                 startActivity(intent1);
                 break;
         }
     }
 }
+

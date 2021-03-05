@@ -19,6 +19,7 @@ public class home extends Activity implements View.OnClickListener {
         Button bt4 = (Button) findViewById(R.id.button13);
         Button bt5 = (Button) findViewById(R.id.button16);
         Button bt6 = (Button) findViewById(R.id.button14);
+        Button bt7 = (Button) findViewById(R.id.button12);
 
         bt1.setOnClickListener(this);
         bt2.setOnClickListener(this);
@@ -26,6 +27,7 @@ public class home extends Activity implements View.OnClickListener {
         bt4.setOnClickListener(this);
         bt5.setOnClickListener(this);
         bt6.setOnClickListener(this);
+        bt7.setOnClickListener(this);
     }
     @Override
     public void onClick(View v) {
@@ -58,6 +60,11 @@ public class home extends Activity implements View.OnClickListener {
             case R.id.button14:
                 Intent intent6 = new Intent(this,categories.class);
                 startActivity(intent6);
+                break;
+
+            case R.id.button12:
+                Intent intent7 = new Intent(this,shoppingbasket.class);
+                startActivity(intent7);
                 break;
         }
     }

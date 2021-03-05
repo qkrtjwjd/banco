@@ -29,6 +29,8 @@
         <activity android:name=".orderhistory"/>
         <activity android:name=".categories"/>
         <activity android:name=".detaillist"/>
+        <activity android:name=".shoppingbasket"/>
+        <activity android:name=".productdetails"/>
     </application>
 
 </manifest>
