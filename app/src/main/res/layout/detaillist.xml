@@ -7,6 +7,91 @@
     android:background="#FFFFFF">
 
     <Button
+        android:id="@+id/button10"
+        android:layout_width="411dp"
+        android:layout_height="130dp"
+        android:background="#E3EEF8"
+        android:text="이벤트베너,추천 상품"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:backgroundTint="#E3EEF8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.386"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="206dp"
+        android:layout_height="74dp"
+        android:background="#FFFFFF"
+        android:text="구슬 아이스크림"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:backgroundTint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.238"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="206dp"
+        android:layout_height="74dp"
+        android:background="#FFFFFF"
+        android:text="기타"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:backgroundTint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.995"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.24"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="206dp"
+        android:layout_height="74dp"
+        android:background="#FFFFFF"
+        android:text="막대 아이스크림"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:backgroundTint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.125"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="206dp"
+        android:layout_height="74dp"
+        android:background="#FFFFFF"
+        android:text="콘 아이스크림"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:backgroundTint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.126"
+        tools:ignore="MissingConstraints" />
+
+    <Button
         android:id="@+id/button5"
         android:layout_width="81dp"
         android:layout_height="44dp"
@@ -38,6 +123,23 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="86dp"
+        android:layout_height="44dp"
+        android:background="#E3EEF8"
+        android:text="신상순"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        app:backgroundTint="#E3EEF8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.564"
         tools:ignore="MissingConstraints" />
 
     <Button
@@ -91,51 +193,6 @@
         app:layout_constraintVertical_bias="1.0"
         tools:ignore="MissingConstraints" />
 
-    <Button
-        android:id="@+id/button25"
-        android:layout_width="209dp"
-        android:layout_height="67dp"
-        android:text="기타"
-        android:textColor="#000000"
-        android:textSize="24sp"
-        app:backgroundTint="#FFFFFF"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.215" />
-
-    <Button
-        android:id="@+id/button26"
-        android:layout_width="209dp"
-        android:layout_height="67dp"
-        android:text="구슬 아이스크림"
-        android:textColor="#000000"
-        android:textSize="24sp"
-        app:backgroundTint="#FFFFFF"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.215" />
-
-    <Button
-        android:id="@+id/button24"
-        android:layout_width="209dp"
-        android:layout_height="67dp"
-        android:text="콘 아이스크림"
-        android:textColor="#000000"
-        android:textSize="24sp"
-        app:backgroundTint="#FFFFFF"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.114" />
-
     <TextView
         android:id="@+id/tv_logo15"
         android:layout_width="match_parent"
@@ -163,44 +220,5 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.023"
         app:srcCompat="?attr/actionModeCloseDrawable" />
-
-    <Button
-        android:id="@+id/button23"
-        android:layout_width="209dp"
-        android:layout_height="67dp"
-        android:text="막대 아이스크림"
-        android:textColor="#000000"
-        android:textSize="24sp"
-        app:backgroundTint="#FFFFFF"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.114" />
-
-    <Button
-        android:id="@+id/button28"
-        android:layout_width="406dp"
-        android:layout_height="140dp"
-        android:text="이벤트배너,추천상품"
-        android:textColor="#000000"
-        android:textSize="30sp"
-        app:backgroundTint="#E3EEF8"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.355"
-        tools:layout_editor_absoluteX="2dp" />
-
-    <Button
-        android:id="@+id/button29"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="신상순"
-        android:textColor="#000000"
-        android:textSize="18sp"
-        app:backgroundTint="#E3EEF8"
-        tools:layout_editor_absoluteX="294dp"
-        tools:layout_editor_absoluteY="364dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
