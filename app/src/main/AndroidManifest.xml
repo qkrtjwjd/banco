@@ -31,6 +31,12 @@
         <activity android:name=".detaillist"/>
         <activity android:name=".shoppingbasket"/>
         <activity android:name=".productdetails"/>
+        <activity android:name=".myinformation"/>
+        <activity android:name=".modifymyinformation"/>
+        <activity android:name=".payment"/>
+        <activity android:name=".paymentcompleted"/>
+        <activity android:name=".changepassword"/>
+
     </application>
 
 </manifest>
