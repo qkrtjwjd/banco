@@ -15,10 +15,12 @@ public class orderhistory extends Activity implements View.OnClickListener {
         Button bt1 = (Button)findViewById(R.id.button2);
         Button bt2 = (Button)findViewById(R.id.button3);
         Button bt3 = (Button)findViewById(R.id.button);
+        Button bt4 = (Button)findViewById(R.id.button5);
 
         bt1.setOnClickListener(this);
         bt2.setOnClickListener(this);
         bt3.setOnClickListener(this);
+        bt4.setOnClickListener(this);
     }
 
     @Override
@@ -37,6 +39,11 @@ public class orderhistory extends Activity implements View.OnClickListener {
             case R.id.button:
                 Intent intent3 = new Intent(this,categories.class);
                 startActivity(intent3);
+                break;
+
+            case R.id.button5:
+                Intent intent4 = new Intent(this,myinformation.class);
+                startActivity(intent4);
                 break;
         }
     }

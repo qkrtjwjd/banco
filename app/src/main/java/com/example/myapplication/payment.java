@@ -12,7 +12,7 @@ public class payment extends Activity implements View.OnClickListener {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.payment);
 
-        Button bt1 = (Button)findViewById(R.id.button3);
+        Button bt1 = (Button)findViewById(R.id.button);
 
         bt1.setOnClickListener(this);
     }
@@ -20,7 +20,7 @@ public class payment extends Activity implements View.OnClickListener {
     @Override
     public void onClick(View v) {
         switch (v.getId()){
-            case R.id.button3:
+            case R.id.button:
                 Intent intent1 = new Intent(this,paymentcompleted.class);
                 startActivity(intent1);
                 break;
