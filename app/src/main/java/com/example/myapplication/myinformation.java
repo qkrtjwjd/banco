@@ -41,7 +41,7 @@ public class myinformation extends Activity implements View.OnClickListener {
     public void onClick(View v) {
         switch (v.getId()){
             case R.id.button:
-                Intent intent1 = new Intent(this,home.class);
+                Intent intent1 = new Intent(this,modifymyinformation.class);
                 startActivity(intent1);
                 break;
 
