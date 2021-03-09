@@ -26,7 +26,7 @@
         android:id="@+id/button2"
         android:layout_width="306dp"
         android:layout_height="47dp"
-        android:background="#E3EEF8"
+        android:background="#FFFFFF"
         android:text="본인인증"
         android:textColor="#000000"
         android:textSize="18sp"
