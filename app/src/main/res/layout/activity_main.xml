@@ -121,15 +121,15 @@
         app:layout_constraintVertical_bias="0.327" />
 
     <ImageView
-        android:id="@+id/imageView12"
-        android:layout_width="128dp"
-        android:layout_height="118dp"
+        android:id="@+id/imageView11"
+        android:layout_width="139dp"
+        android:layout_height="133dp"
         android:src="@mipmap/ic_launcher_foreground"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.155"
+        app:layout_constraintHorizontal_bias="0.11"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.102" />
+        app:layout_constraintVertical_bias="0.095" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

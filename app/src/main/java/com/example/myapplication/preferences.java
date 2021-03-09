@@ -19,10 +19,10 @@ public class preferences extends Activity implements View.OnClickListener {
         Button bt5 = (Button)findViewById(R.id.button9);
 
         bt1.setOnClickListener(this);
-        bt1.setOnClickListener(this);
-        bt1.setOnClickListener(this);
-        bt1.setOnClickListener(this);
-        bt1.setOnClickListener(this);
+        bt2.setOnClickListener(this);
+        bt3.setOnClickListener(this);
+        bt4.setOnClickListener(this);
+        bt5.setOnClickListener(this);
     }
 
     @Override
