@@ -7,7 +7,7 @@
     android:layout_height="match_parent">
 
     <Button
-        android:id="@+id/button14"
+        android:id="@+id/button9"
         android:layout_width="81dp"
         android:layout_height="44dp"
         android:background="#E3EEF8"
@@ -27,7 +27,7 @@
         tools:ignore="MissingConstraints" />
 
     <Button
-        android:id="@+id/button11"
+        android:id="@+id/button6"
         android:layout_width="86dp"
         android:layout_height="44dp"
         android:background="#E3EEF8"
@@ -48,7 +48,7 @@
         tools:ignore="MissingConstraints" />
 
     <Button
-        android:id="@+id/button12"
+        android:id="@+id/button7"
         android:layout_width="86dp"
         android:layout_height="44dp"
         android:background="#E3EEF8"
@@ -68,7 +68,7 @@
         tools:ignore="MissingConstraints" />
 
     <Button
-        android:id="@+id/button13"
+        android:id="@+id/button8"
         android:layout_width="86dp"
         android:layout_height="44dp"
         android:background="#E3EEF8"
@@ -89,7 +89,7 @@
         tools:ignore="MissingConstraints" />
 
     <Button
-        android:id="@+id/button10"
+        android:id="@+id/button5"
         android:layout_width="77dp"
         android:layout_height="44dp"
         android:background="#E3EEF8"
@@ -111,189 +111,120 @@
         tools:ignore="MissingConstraints" />
 
     <Button
-        android:id="@+id/button9"
-        android:layout_width="164dp"
-        android:layout_height="33dp"
-        android:background="#FFFFFF"
-        android:text="약관 및 정책"
-        android:textColor="#000000"
-        android:textSize="12sp"
-        app:backgroundTint="#FFFFFF"
-        app:iconTint="@color/black"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.842"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.861"
-        app:strokeColor="#000000"
-        app:strokeWidth="1dp"
-        tools:ignore="MissingConstraints" />
-
-    <Button
-        android:id="@+id/button6"
-        android:layout_width="333dp"
-        android:layout_height="49dp"
-        android:background="#FFFFFF"
-        android:text="고객센터"
-        android:textColor="#000000"
-        android:textSize="18sp"
-        app:backgroundTint="#FFFFFF"
-        app:iconTint="@color/black"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.675"
-        app:strokeColor="#000000"
-        app:strokeWidth="1dp"
-        tools:ignore="MissingConstraints" />
-
-    <Button
         android:id="@+id/button4"
-        android:layout_width="333dp"
-        android:layout_height="49dp"
-        android:background="#FFFFFF"
-        android:text="공지사항"
+        android:layout_width="121dp"
+        android:layout_height="42dp"
+        android:background="#E3EEF8"
         android:textColor="#000000"
         android:textSize="18sp"
-        app:backgroundTint="#FFFFFF"
-        app:iconTint="@color/black"
+        app:backgroundTint="#E3EEF8"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.855"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.532"
-        app:strokeColor="#000000"
-        app:strokeWidth="1dp"
+        app:layout_constraintVertical_bias="0.567"
         tools:ignore="MissingConstraints" />
 
+    <TextView
+        android:id="@+id/textView45"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="알림"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.065"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.568" />
+
     <Button
-        android:id="@+id/button7"
-        android:layout_width="333dp"
-        android:layout_height="49dp"
-        android:background="#FFFFFF"
-        android:text="현제 버전 2.0"
+        android:id="@+id/button3"
+        android:layout_width="121dp"
+        android:layout_height="42dp"
+        android:background="#E3EEF8"
         android:textColor="#000000"
         android:textSize="18sp"
-        app:backgroundTint="#FFFFFF"
-        app:iconTint="@color/black"
+        app:backgroundTint="#E3EEF8"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.855"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.747"
-        app:strokeColor="#000000"
-        app:strokeWidth="1dp"
+        app:layout_constraintVertical_bias="0.445"
         tools:ignore="MissingConstraints" />
 
-    <Button
-        android:id="@+id/button5"
-        android:layout_width="333dp"
-        android:layout_height="49dp"
-        android:background="#FFFFFF"
-        android:text="환경설정"
-        android:textColor="#000000"
-        android:textSize="18sp"
-        app:backgroundTint="#FFFFFF"
-        app:iconTint="@color/black"
+    <TextView
+        android:id="@+id/textView43"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="재 입고 알림"
+        android:textSize="30sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.104"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.604"
-        app:strokeColor="#000000"
-        app:strokeWidth="1dp"
-        tools:ignore="MissingConstraints" />
-
-    <Button
-        android:id="@+id/button8"
-        android:layout_width="164dp"
-        android:layout_height="33dp"
-        android:background="#FFFFFF"
-        android:text="반송 및 교환 안내"
-        android:textColor="#000000"
-        android:textSize="12sp"
-        app:backgroundTint="#FFFFFF"
-        app:iconTint="@color/black"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.178"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.861"
-        app:strokeColor="#000000"
-        app:strokeWidth="1dp"
-        tools:ignore="MissingConstraints" />
+        app:layout_constraintVertical_bias="0.446" />
 
     <Button
         android:id="@+id/button"
-        android:layout_width="339dp"
-        android:layout_height="121dp"
+        android:layout_width="121dp"
+        android:layout_height="42dp"
         android:background="#E3EEF8"
-        android:text="고객 프로필"
         android:textColor="#000000"
-        android:textSize="24sp"
+        android:textSize="18sp"
         app:backgroundTint="#E3EEF8"
-        app:iconTint="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.855"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.17"
-        app:strokeColor="#000000"
-        app:strokeWidth="1dp"
+        app:layout_constraintVertical_bias="0.185"
         tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="149dp"
-        android:layout_height="91dp"
+        android:layout_width="121dp"
+        android:layout_height="42dp"
         android:background="#E3EEF8"
-        android:text="찜"
         android:textColor="#000000"
-        android:textSize="24sp"
+        android:textSize="18sp"
         app:backgroundTint="#E3EEF8"
-        app:iconTint="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.137"
+        app:layout_constraintHorizontal_bias="0.855"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.371"
-        app:strokeColor="#000000"
-        app:strokeWidth="1dp"
-        tools:ignore="MissingConstraints" />
-
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="149dp"
-        android:layout_height="91dp"
-        android:background="#E3EEF8"
-        android:text="주문 내역"
-        android:textColor="#000000"
-        android:textSize="24sp"
-        app:backgroundTint="#E3EEF8"
-        app:iconTint="@color/black"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.862"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.371"
-        app:strokeColor="#000000"
-        app:strokeWidth="1dp"
+        app:layout_constraintVertical_bias="0.314"
         tools:ignore="MissingConstraints" />
 
     <TextView
-        android:id="@+id/tv_logo23"
+        android:id="@+id/textView42"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="배달 현황 알림"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.104"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.314" />
+
+    <TextView
+        android:id="@+id/tv_logo27"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="-16dp"
         android:layout_width="match_parent"
         android:layout_height="81dp"
         android:background="#E3EEF8"
         android:gravity="center"
-        android:text="내 정보"
+        android:text="환경설정"
         android:textColor="@color/black"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -312,4 +243,18 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.023"
         app:srcCompat="?attr/actionModeCloseDrawable" />
+
+    <TextView
+        android:id="@+id/textView41"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="해택 알림"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.104"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.185" />
 </androidx.constraintlayout.widget.ConstraintLayout>

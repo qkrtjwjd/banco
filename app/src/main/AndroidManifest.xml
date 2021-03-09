@@ -36,6 +36,10 @@
         <activity android:name=".payment"/>
         <activity android:name=".paymentcompleted"/>
         <activity android:name=".changepassword"/>
+        <activity android:name=".notice"/>
+        <activity android:name=".preferences"/>
+        <activity android:name=".customerservice"/>
+        <activity android:name=".returninstructions"/>
 
     </application>
 

@@ -66,22 +66,22 @@ public class myinformation extends Activity implements View.OnClickListener {
                 break;
 
             case R.id.button4:
-                Intent intent6 = new Intent(this,orderhistory.class);
+                Intent intent6 = new Intent(this,notice.class);
                 startActivity(intent6);
                 break;
 
             case R.id.button5:
-                Intent intent7 = new Intent(this,orderhistory.class);
+                Intent intent7 = new Intent(this,preferences.class);
                 startActivity(intent7);
                 break;
 
             case R.id.button6:
-                Intent intent8 = new Intent(this,orderhistory.class);
+                Intent intent8 = new Intent(this,customerservice.class);
                 startActivity(intent8);
                 break;
 
             case R.id.button8:
-                Intent intent9 = new Intent(this,orderhistory.class);
+                Intent intent9 = new Intent(this,returninstructions.class);
                 startActivity(intent9);
                 break;
 
