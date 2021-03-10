@@ -13,7 +13,7 @@ public class reservation extends Activity implements View.OnClickListener {
         setContentView(R.layout.reservation);
 
         Button bt1 = (Button)findViewById(R.id.button4);
-        Button bt2 = (Button)findViewById(R.id.button);
+        Button bt2 = (Button)findViewById(R.id.button3);
         Button bt3 = (Button)findViewById(R.id.button2);
         Button bt4 = (Button)findViewById(R.id.button5);
 
@@ -31,7 +31,7 @@ public class reservation extends Activity implements View.OnClickListener {
                 startActivity(intent1);
                 break;
 
-            case R.id.button:
+            case R.id.button3:
                 Intent intent2 = new Intent(this,home.class);
                 startActivity(intent2);
                 break;
